@@ -1,0 +1,125 @@
+body {
+    background-color: #ccc;
+}
+
+.text-header {
+    font-style: italic;
+    color: red !important;
+}
+
+#text-header-id {
+    font-style: normal;
+    color: blue;
+}
+
+.text-header-two {
+    color: brown !important;
+    color: antiquewhite;
+}
+
+
+
+/* .box-one, .box-two{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+} */
+/* .box-container > div{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+.box-container:hover + p{
+    display: block !important;
+} */
+/* .box-container + p{
+    color: blue;
+} */
+
+.css-recap {
+    font-size: 50px;
+    background-color: white;
+    font-family: "Roboto";
+    font-weight: 800;
+    width: fit-content;
+    /* padding-top: 24px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 40px;
+    padding: 24px 12px 8px 4px; */
+    padding: 24px;
+    margin: 24px;
+    border: 4px dotted black;
+    border-radius: 50px;
+    border-bottom-right-radius: 24px;
+    text-transform: capitalize;
+    text-decoration: overline underline line-through;
+}
+
+.test-position-absloute {
+    position: relative;
+}
+
+.test-position-absloute>h1 {
+    position: absolute;
+    top: 0;
+}
+
+.test-position-fixed {
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 11;
+}
+
+.test-position-stickey {
+    height: 2000px;
+    position: relative;
+    background: white;
+}
+
+.test-position-stickey>div {
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.box-container {
+    background-color: black;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 24px;
+    margin-top: 200px;
+}
+
+.box-container>div {
+    width: 150px;
+    height: 150px;
+}
+
+.box-one {
+    background-color: red;
+}
+
+.box-container>div:nth-child(2) {
+    background-color: white;
+}
+
+.box-container>div:nth-child(3) {
+    background-color: blue;
+}
+
+.box-container>div:nth-child(4) {
+    background-color: yellow;
+}
+
